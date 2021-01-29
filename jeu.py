@@ -24,6 +24,7 @@ class etage:
         self.salles = salles
         self.couloirs = couloirs
     
-salles = [[0,0,3,4], [0, 6, 3, 3]] #deux salles 
+salles = [(0,0,4,5), (7,0,3,4), (11,7,5,2)]
+couloirs = [ [(2,5),(2,8),(8,8),(8,4)] , [(4,2),(5,2),(5,1),(6,1)] , [(10,2),(12,2),(12,1),(14,1),(14,6)]]
 test = [[0 for i in range(3)]for j in range(4)]
 print(test)
